@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="3.0" type="module" group="system" method="upgrade">
+  <name>ماژول آسان پرداخت زرین پال</name>
+  <creationDate>فروردین 94</creationDate>
+  <author>mohammad soleymani</author>
+  <authorEmail>soleymani2013@gmail.com</authorEmail>
+  <authorUrl>http:www.datisrayan.ir</authorUrl>
+  <copyright>Zarinpal 2013</copyright>
+  <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+  <version>1</version>
+    <description><![CDATA[<body link="#e8f51c" alink="#008080" vlink="#e8f51c"><div align="center"><table border="1" cellpadding="6" cellspacing="0" id="table1" bordercolor="#e5e5e5" style="font-family: Tahoma" width="90%" dir="rtl"><tr><td rowspan="6" width="190" height="200"><img border="0" src="http://www.datisrayan.ir/images/sampledata/logo/000.gif" width="202" height="190"></td><td colspan="2" bgcolor="#42e56c"><p align="center"><b><a style="text-decoration: none" target="_blank" href="http://datisrayan.ir/about-us-page/shoup"><font color="#000000">انجمن پارس جوم</font></a>&nbsp;تقدیم میکند	</b> </p></td></tr><tr><td width="150" bgcolor="#e5e714"><font size="2" color="#000000">نام افزونه :</font></td><td bgcolor="#f5f5f5"><span lang="fa">ماژول پرداخت آسان</span></td></tr><tr><td width="150" bgcolor="#e8f51c"><font size="2" color="#000000">توضیحات:</font></td><td bgcolor="#f5f5f5">ااین ماژول برای پرداخت مستقیم و آسان زرین پال طراحی شده است</span></td></tr><tr><td width="150" bgcolor="#e8f51c"><font color="#000000"><font size="2">توسعه دهنده </font><span lang="fa"><font size="2"> :</font></span></font></td><td bgcolor="#f5f5f5"><span lang="fa">انجمن پارس جوم</span></td></tr><tr><td width="150" bgcolor="#e8f51c"><font size="2" color="#000000">برنامه نویسی شده<span lang="fa"> توسط</span> :</font></td><td bgcolor="#f5f5f5">محمد سلیمانی - تیم برنامه نویسی پارس جوم</td></tr></table></div>]]></description>
+  <files>
+    <filename module="mod_zarinpal">mod_zarinpal.php</filename>
+  </files>
+
+ <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="@spacer" type="spacer" default="" label="ماژول آسان پرداخت زرین پال" description="Module Content Title settings follow" />
+                <field name="value" type="text" default="Shmare hesabe zarin pale shoma zp.XXXXX"  label="شماره حساب زرین پال" description="" />
+                <field name="pretext" type="text" default="اهدا هدیه"  label="متن قبل از جعبه پرداخت" description="متنی که تمایل دارید در ابتدا ماژول درج شود"/>
+                <field name="link" type="text" default="http://yoursite.com/yoursuccess_submitform" label="آدرس لینک برگشت به سایت" description="کاربر پس از پرداخت به این لینک برخواهد گشت"/>
+            </fieldset>
+        </fields>
+ </config>
+</extension>
